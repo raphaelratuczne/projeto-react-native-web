@@ -1,2 +1,9 @@
 # projeto-react-native-web
-projeto base de react que gera um app native e sistema web com o mesmo código
+
+Projeto base de react que mescla um projeto react e react-native
+
+Usa componentes específicos pra cada versão
+
+Usar typescript e scss
+
+Redux já esta instalado

@@ -1,0 +1,48 @@
+{
+  "name": "reactMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start-m": "node node_modules/react-native/local-cli/cli.js start",
+    "test-m": "jest",
+    "start-w": "react-scripts start",
+    "build-w": "react-scripts build",
+    "test-w": "react-scripts test",
+    "eject-w": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "0.59.3",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.0",
+    "@types/react": "16.8.11",
+    "@types/react-dom": "16.8.3",
+    "@types/react-native": "^0.57.42",
+    "@types/react-redux": "^7.0.6",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "23.6.0",
+    "jest": "^23.6.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "node-sass": "4.11.0",
+    "react-test-renderer": "16.8.3",
+    "redux-devtools": "^3.5.0",
+    "typescript": "3.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
